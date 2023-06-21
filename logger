@@ -1,0 +1,17 @@
+/* -*-c++-*- 
+ *
+ *    file: logger
+ *  author: ShpakovDmitry
+ *    date: 2023-6-21
+ * licence: CC0
+ * summary: Simple logging library.
+ *
+ */
+
+#ifndef _LOGGING_
+#define _LOGGING_
+
+
+
+#endif//_LOGGING_
+
