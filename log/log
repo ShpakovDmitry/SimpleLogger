@@ -1,0 +1,47 @@
+/* -*-c++-*- 
+ *
+ *    file: log
+ *  author: ShpakovDmitry
+ *    date: 2023-6-21
+ * licence: CC0
+ * summary: Simple logging library.
+ *
+ */
+
+#ifndef _LOG_
+#define _LOG_
+
+#include <string>
+#include <iostream>
+
+namespace Logger {
+
+enum MessageType {
+    INFO,
+    WARN,
+    SUCC,
+    FAIL
+};
+
+class LOG {
+    public:
+        LOG() = delete;
+        explicit LOG(MessageType type);
+        ~LOG();
+
+        template<class T>
+        LOG &operator<<(const T &message) {
+            std::cout << message;
+            started = true;
+            return *this;
+        }
+    private:
+        std::string getDate();
+        std::string messageTypeToString(MessageType);
+        bool started = false;
+};
+
+} // namespace Logger
+
+#endif//_LOG_
+

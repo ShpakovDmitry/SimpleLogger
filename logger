@@ -11,7 +11,7 @@
 #ifndef _LOGGING_
 #define _LOGGING_
 
-
+#include "log/log"
 
 #endif//_LOGGING_
 
