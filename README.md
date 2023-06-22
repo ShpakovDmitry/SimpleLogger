@@ -32,3 +32,8 @@ The output generated is:
 10:42:10 FAIL failure message
 10:42:10 INFO The value of PI = 3.14159
 ```
+
+### Dependencies
+
+The library is dependant on the following libraries: `ctime`, `iostream`, `string`.
+
