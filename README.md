@@ -37,3 +37,7 @@ The output generated is:
 
 The library is dependant on the following libraries: `ctime`, `iostream`, `string`.
 
+### License
+
+The library is provided under CC0 terms, meaning that `No Rights are reserved`
+and do whatever you want with this library.
