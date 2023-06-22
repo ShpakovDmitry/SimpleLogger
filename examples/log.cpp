@@ -17,6 +17,11 @@ int main(int argc, char *argv[]) {
     LOG(WARN) << "warning message";
     LOG(SUCC) << "success message";
     LOG(FAIL) << "failure message";
+
+    constexpr float PI = 3.1415926f;
+    LOG(INFO) << "The value of PI = " << PI;
+
+
     return 0;
 }
 
